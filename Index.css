@@ -1,207 +1,426 @@
-* {
-    font-family: 'awosone', sans-serif;
+@importurl ('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&family=Inter&display=swap');
+
+corpo {
+    preenchimento:0;
+    margem:0;
+    tamanho de caixa:border-box;
+    altura:800px;
 }
 
-.bg-primary-color {
-    background-color: rgb(80, 130, 240);
-    color:white;
+cabeçalho {
+    largura:100%;
+    altura:150px;
+    display: flex;
+    justificar-conteúdo:centro;
+    cor de fundo:#0025aa;
+    border-bottom:3pxpreto sólido;
 }
 
-.bg-secondary-color {
-    background-color:rgba(135, 172, 252, 0.801);
+#simbolo {
+    font-family: 'Alumni Sans', sans-serif;
+    tamanho da fonte:70pt;
+    posição:relativo;
+    esquerda:50px;
+    topo:7px;
 }
 
-.bg-dark-color {
-    background-color: rgb(80, 130, 240);
+#simboloum {
+    cor:#ffffff;
+    decoração de texto:nenhum;
+}
+
+#sombra-simbolo {
+    posição:relativo;
+    topo:-105px;
+    altura:70px;
+    largura:90px;
+    box-shadow:inset#0025aaa9 0-30px15px;
 
 }
 
-.primary-color {
-    color: white;
+navdivum {
+    decoração de texto:nenhum;
 }
 
-.secondary-color {
-    color: white;
+navdiva:pairar {
+    cor:#0025AA;
+    peso da fonte:600;
 }
 
-.bi-list {
- color:white;
-}
-/* DESTAQUES*/
- #Destaques {
-    background-image: url(../img/image\ 28.png);
-}
-
-#Product {
-   filter: drop-shadow(8px 8px 4px #1cd4ec);
+#logotipo {
+    tamanho da fonte:90pt;
+    font-family: 'Alumni Sans', sans-serif;
+    largura:500px;
+    altura:100px;
+    posição:relativo;
+    esquerda:550px;
+    topo:-7px;
 }
 
-.carousel-indicators [data-bs-target]{
-    border-radius: 20px;
-    border-bottom: #085588;
-    background-color: white;
-    width: 15px;
-    height: 15px;
-    border-top:rgb(8, 8, 8);
-}
-.card-body{
-   /*background-image: url(../img/image\ 28.png);*/
-   background-color: rgb(80, 130, 240);
+#logotipo um logotipo {
+    cor:branco;
+    decoração de texto:nenhum;
 }
 
-.card-title {
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-variant:normal;
-    font-weight:600;
+
+#sombra-logotipo {
+    largura:453px;
+    altura:100px;
+    posição:relativo;
+    topo:-135px;
+    box-shadow:inset#0025aab40px-45 px18px0px;
 }
 
-#featured-imagens {
-    background-color: rgb(3, 34, 100);
+Nav {
+    cor de fundo:#EC3219;
+    largura:60%;
+    altura:40%;
+    display: flex;
+    fronteira:1pxpreto sólido;
+    flex-direção:linha;
+    justificar-content:flex-start;
+    estouro:oculto;
+    posição:relativo;
+    topo:120px;
+    esquerda:-140px;
 }
 
-#produtos {
-    background-color: rgb(3, 34, 100);
+#nav-itens {
+    display: flex;
+    largura:60%;
+    altura:100%;
+    margem:0px;
 }
 
-#divBusca{
-    background-color: rgba(188, 207, 248, 0.979);
-    border-radius:15px;
-    width:300px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
-/*Tira a caixinha da barra de pesquisa*/
-   textarea:focus, input:focus {
-    outline: none;
-  }
+#nav-busca {
+    display: flex;
+    largura:40%;
+    altura:100%;
+    margem:0px;
+    justificar-content:flex-start;
+    cor de fundo:#EC3219;
+}
 
-  span {
-    color: white;
+navdiv a,nav diventrada {
+    fronteira:1pxpreto sólido;
+    tamanho da fonte:13pt;
+    cor:branco;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    itens de alinhamento:centro;
+}
+
+#nav-itens > a {
+    preenchimento:4px13px4px;
+    justificar-conteúdo:centro;
+}
+
+#barra-de-busca{
+    fundo:nenhum;
+    largura:100%;
+    margem:0;
+}
+
+naventrada::espaço reservado{
+    estilo fonte:itálico;
+    cor:branco;
+    alinhamento de texto:centro;
+}
+#azul-escuro {
+    cor de fundo:#0025AA;
+    largura:1777px;
+    altura:965px;
+    preenchimento:0;
+    margem-topo:50px;
+}
+
+#azul-claro {
+    cor de fundo:#0094FF;
+    largura:100%;
+    altura:775px;
+    margem:0;
+    posição:relativo;
+    topo:95px;   
+
+}
+
+#azul-escuro#azul-claro. titulo-vermelho {
+    font-family: 'Inter', sans-serif;
+    tamanho da fonte:40pt;
+    cor:branco;
+    cor de fundo:#EC3219;
+    largura:75%;
+    altura:120px;
+    fronteira:5pxpreto sólido;
+    posição:relativo;
+    topo:-60px;
+    margem:0auto;
+    display: flex;
+    justificar-conteúdo:centro;
+    itens de alinhamento:centro;
+}
+
+. titulo-vermelho {
+    font-family: 'Inter', sans-serif;
+    tamanho da fonte:40pt;
+    cor:branco;
+    cor de fundo:#EC3219;
+    largura:75%;
+    altura:164px;
+    fronteira:5pxpreto sólido;
+    display: flex;
+    justificar-conteúdo:centro;
+    itens de alinhamento:centro;
+}
+
+. flex-container {
+    largura:100,1%;
+    display: flex;
+    justificar-conteúdo:centro;
+    flex-wrap: wrap;
+    posição:relativo;
+    topo:50px;
+    esquerda:0px
+}
+
+. extensão de recipiente flex {
+    largura:33,3%;
+    fronteira:2pxpreto sólido;
+    tamanho da fonte:30pt;
+    font-family: 'Inter', sans-serif;
+    text-transform:maiússão;
+    display: flex;
+    justificar-conteúdo:centro;
+    itens de alinhamento:centro;
+}
+
+. flex-containerum {
+    decoração de texto:nenhum;
+    cor:branco;
+    alinhamento de texto:centro;
+}
+
+. fonte menor {
+    tamanho da fonte:10.1pt;
+}
+
+#top-direita-box {
+    cor de fundo:#0025aa;
+    altura:100%;
+    largura:300px;
+    border-left:3pxpreto sólido;
+    display: flex;
+    flex-direção:coluna;
+    justificar-conteúdo:espaço-em torno;
+    itens de alinhamento:centro;
+   
+}
+
+#topo-direito-caixaabrangerum {
+    cor:branco;
+    font-family: 'Inter', sans-serif;
+    peso da fonte:600;
+    tamanho da fonte:18pt;
+    decoração de texto:nenhum;
     
-  }
-
-  p {
-    color: white;
-  }
-
-  /*Página de Login- GERAL*/
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: rgba(17, 14, 14, 0.938);
-    border: none;
-  }
-
-  #login {
-    background-image: url('../img/background\ login.png');
-    background-size: cover;
-     /*background-position-y: -200px;*/
 }
 
-a {
-    font-size: .8rem;
+#login {
+    border-bottom:0,5pxpreto sólido;
+    largura:100%;
+    altura:50%;
+    display: flex;
+    justificar-conteúdo:centro;
+    itens de alinhamento:centro;
 }
 
-a:hover {
-    color: rgb(3, 116, 197);
+#cadastro {
+    largura:100%;
+    altura:50%;
+    border-top:0,5pxpreto sólido;
+    display: flex;
+    justificar-conteúdo:centro;
+    itens de alinhamento:centro;
 }
 
-  /*Container login*/
-  #login-container {
-    background-color: #fff;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 30px;
-    margin-top: 10vh;
-    border-radius: 10px;
-    text-align: center;
-  }
-    /*Formulário*/
-#form {
-    margin-top: 30px;
-    margin-bottom: 40px;
+#linha-esquerda {
+    largura:3,8%;
+    altura:100%;
+    posição:relativo;
+    esquerda:100px;
+    border-left:3pxpreto sólido;
+}
+. flex-containera:pairar{
+    cor:#EC3219; 
+    tamanho da fonte:40pt;
 }
 
-label, input {
-    display: block;
-    width: 100%;
-    text-align: left;
+. flex-container. border-cima {
+    border-top:4pxpreto sólido;
 }
 
-label {
-    font-weight: bold;
+. flex-container. border-baixo {
+    border-bottom:4pxpreto sólido;
 }
 
-#input-senha {
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
+umimg. imagem-pequena {
+    preenchimento:0;
+    margem:0;
+    largura:90%;
+    altura:561;
 }
 
-#input-login {
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
+
+
+div#flex-container-img {
+    display: flex;
+    justificar-conteúdo:espaço-em torno;
 }
 
-input:focus {
-    border-bottom: 2px solid #085588;
+#imagens. titulo-vermelho {
+    posição:relativo;
+    margem:auto;
+    topo:40px;
+    altura:120px;
+    z-index: 5;
 }
 
-#forgot-pass {
-    text-align: right;
-    display: block;
+#seção-promocao {
+    posição:relativo;
+    topo:-40px;
 }
 
-input[type="submit"] {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top:30px;
-    color: #fff;
-    background-color: #201e5f;
-    cursor: pointer;
+#promocao. titulo-vermelho {
+    text-transform:maiússão;
+    tamanho da fonte:24pt;
+    alinhamento de texto:centro;
+    margem:auto;
+    posição:relativo;
+    topo:110px;
 }
 
-input[type="submit"]:hover {
-    background-color: #18223c;
-    transition: .5s;
+#imagem-grande {
+    largura:100%;
+}
+. pai-pé {
+    cor de fundo:rgba (0,37.170,0.797 );
+    display: flex;
+
 }
 
-/* redes sociais */
-#social-container,#social-container p {
-margin-bottom: 20px;
-color: black;
+ul a,ul li {
+    decoração de texto:nenhum;
+    fonte-família:"Inter",sans-serif;
+    tamanho da fonte:20pt;
+    cor:branco;
 }
 
-#social-container i {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    line-height: 40px;
-    color: rgba(0, 0, 255, 0.808);
-    margin: 0 5px;
-    cursor: pointer;
+ula:pairar{
+    decoração de texto:nenhum;
+    fonte-família:"Inter",sans-serif;
+    tamanho da fonte:20pt;
+    cor:#EC3219;
 }
 
-p {
-    color: black;
+ulli:pairar{
+    decoração de texto:nenhum;
+    fonte-família:"Inter",sans-serif;
+    tamanho da fonte:20pt;
+    cor:#EC3219;
+}
+
+Ul {
+    estilo lista:nenhum;
+}
+
+. criança-esquerda,. centro infantil,. criança-direito{
+    alinhamento de texto:esquerda;
+    largura:33,3%;
+    ;
+}
+
+. centro infantil {
+    margem:auto;
+    preenchimento-esquerda:50px;
+}
+
+. criança-esquerda,. criança-direito {
+    preenchimento:35px;
+}
+
+. criança-esquerda {
+    border-right:3pxpreto sólido;
+}
+
+. criança-direito {
+    border-left:3pxpreto sólido;
+}
+
+hr. RH {
+    fronteira:1pxsólido rgba (0,0,0,0.472 );
+}
+
+. criança-centrohr. RH {
+    largura:90%;
+}
+
+#redes-sociais {
+    decoração de texto:nenhum;
+    fonte-família:"Inter",sans-serif;
+    tamanho da fonte:20pt;
+    cor:branco;
+}
+
+. fundo-footer {
+    cor de fundo:#051653;
+    largura:100%;
+    altura:960px;
+    posição:relativo;
+    topo:-959px;
+    z-índice:-1;
+    margem:0;
+    preenchimento:0;
+}
+
+principal {
+    altura:100%;
+}
+
+rodapé {
+    altura:900px;
+    posição:relativo;
+    topo:1345px;
+}
+
+#fundo-preto {
+    posição:relativo;
+    topo:-2200px;
+    largura:100%;
+    altura:2200px;
+    cor de fundo:rgb (0,0,0);
+    z-índice:-1;
+}
+
+#img-pqn1, #img-pqn2 {
+    filtro:desfoque(0px);
+}
+
+#texto-img1 {
+    exibição:nenhum;
+    font-Family:"Inter",sans-serif;
+    tamanho da fonte:30pt;
+    cor:branco;
+    posição:relativo;
+    esquerda:455px;
+    topo:-215px;
+}
+
+#texto-img2 {
+    exibição:nenhum;
+    font-Family:"Inter",sans-serif;
+    tamanho da fonte:30pt;
+    cor:branco;
+    posição:relativo;
+    esquerda:1115px;
+    topo:-215px;
 }
