@@ -1,564 +1,207 @@
-position: absolute;
-width: 1355px;
-height: 931px;
-
-
-
-/* Rectangle 3 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 198px;
-height: 103px;
-
-background: url(Carrinho.jpg);
-border: 5px solid #DB2929;
-
-
-/* OIP (1) 1 */
-
-
-position: absolute;
-width: 390px;
-height: 169px;
-
-background: url(OIP (1).jpg);
-
-
-/* Rectangle 4 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 194px;
-height: 103px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 5 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 194px;
-height: 103px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Login e Cadastro */
-
-
-position: absolute;
-width: 186px;
-height: 86px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* Contato */
-
-
-position: absolute;
-width: 160px;
-height: 70px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* GameMania */
-
-
-position: absolute;
-width: 282px;
-height: 92px;
-
-font-family: 'Almendra SC';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 60px;
-
-color: #F51B1B;
-
-
-
-/* Promoções */
-
-
-position: absolute;
-width: 231px;
-height: 59px;
-
-font-family: 'Almendra SC';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 60px;
-
-color: #F51B1B;
-
-
-
-/* Rectangle 6 */
-
-
-position: absolute;
-width: 991px;
-height: 50px;
-
-background: #FFFFFF;
-
-
-/* Ellipse 1 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 49px;
-height: 50px;
-
-border: 6px solid #FFFFFF;
-
-
-/* Line 1 */
-
-
-position: absolute;
-width: 43.42px;
-height: 0px;
-
-border: 7px solid #FFFFFF;
-transform: rotate(51.55deg);
-
-
-/* 1 1 */
-
-
-position: absolute;
-width: 151px;
-height: 150px;
-
-background: url(1);
-
-
-/* gabinete-gamer-gamemax-elysium-g503x-bk-mid-tower-preto-sfonte-cled-open-box_98840 1 */
-
-
-position: absolute;
-width: 151px;
-height: 150px;
-
-background: url(gabinete-gamer-gamemax-elysium-g503x-bk-mid-tower-preto-sfonte-cled-open-box_98840), #FFFFFF;
-
-
-/* OIP (2) 1 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-
-background: url(OIP (2).jpg);
-
-
-/* R 1 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-
-background: url(R);
-
-
-/* R (1) 1 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-
-background: url(R (1));
-
-
-/* Rectangle 7 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 12 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 13 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 14 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 15 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 16 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 11 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 163px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 10 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 9 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* Rectangle 8 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 169px;
-height: 61px;
-
-background: #FFFFFF;
-border: 5px solid #DB2929;
-
-
-/* R$150,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$50,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$45,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$59,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$49,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$54,99 */
-
-
-position: absolute;
-width: 151px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$419,99 */
-
-
-position: absolute;
-width: 141px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$259,99 */
-
-
-position: absolute;
-width: 160px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$399,99 */
-
-
-position: absolute;
-width: 155px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* R$268,86 */
-
-
-position: absolute;
-width: 154px;
-height: 61px;
-
-font-family: 'Alegreya SC';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 54px;
-
-color: #000000;
-
-
-
-/* Line 2 */
-
-
-position: absolute;
-width: 1438.02px;
-height: 0px;
-
-border: 3px solid #FFFFFF;
-
-
-/* 28a8ac9c-f2ea-4a1e-a3e0-5648a3672f8c 1 */
-
-
-position: absolute;
-width: 151px;
-height: 150px;
-
-background: url(28a8ac9c-f2ea-4a1e-a3e0-5648a3672f8c);
-
-
-/* c3ae9459-fa00-42dc-9f9d-4f84e0a0aaf2 1 */
-
-
-position: absolute;
-width: 151px;
-height: 150px;
-
-background: url(c3ae9459-fa00-42dc-9f9d-4f84e0a0aaf2);
-
-
-/* ee0ff67e-f08a-439e-8132-e345d32910bc 1 */
-
-
-position: absolute;
-width: 151px;
-height: 150px;
-
-background: url(ee0ff67e-f08a-439e-8132-e345d32910bc);
-
-
-/* R (2) 1 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-
-background: url(R (2));
-
-
-/* 26031a6a-5281-4fa6-85a4-f58c6faaa5e9 1 */
-
-
-position: absolute;
-width: 150px;
-height: 150px;
-
-background: url(26031a6a-5281-4fa6-85a4-f58c6faaa5e9);
+* {
+    font-family: 'awosone', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: rgb(80, 130, 240);
+    color:white;
+}
+
+.bg-secondary-color {
+    background-color:rgba(135, 172, 252, 0.801);
+}
+
+.bg-dark-color {
+    background-color: rgb(80, 130, 240);
+
+}
+
+.primary-color {
+    color: white;
+}
+
+.secondary-color {
+    color: white;
+}
+
+.bi-list {
+ color:white;
+}
+/* DESTAQUES*/
+ #Destaques {
+    background-image: url(../img/image\ 28.png);
+}
+
+#Product {
+   filter: drop-shadow(8px 8px 4px #1cd4ec);
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 20px;
+    border-bottom: #085588;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-top:rgb(8, 8, 8);
+}
+.card-body{
+   /*background-image: url(../img/image\ 28.png);*/
+   background-color: rgb(80, 130, 240);
+}
+
+.card-title {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-variant:normal;
+    font-weight:600;
+}
+
+#featured-imagens {
+    background-color: rgb(3, 34, 100);
+}
+
+#produtos {
+    background-color: rgb(3, 34, 100);
+}
+
+#divBusca{
+    background-color: rgba(188, 207, 248, 0.979);
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+/*Tira a caixinha da barra de pesquisa*/
+   textarea:focus, input:focus {
+    outline: none;
+  }
+
+  span {
+    color: white;
+    
+  }
+
+  p {
+    color: white;
+  }
+
+  /*Página de Login- GERAL*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(17, 14, 14, 0.938);
+    border: none;
+  }
+
+  #login {
+    background-image: url('../img/background\ login.png');
+    background-size: cover;
+     /*background-position-y: -200px;*/
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: rgb(3, 116, 197);
+}
+
+  /*Container login*/
+  #login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+    /*Formulário*/
+#form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+#input-senha {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#input-login {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #085588;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:30px;
+    color: #fff;
+    background-color: #201e5f;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #18223c;
+    transition: .5s;
+}
+
+/* redes sociais */
+#social-container,#social-container p {
+margin-bottom: 20px;
+color: black;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: rgba(0, 0, 255, 0.808);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+}
