@@ -1,238 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Mania - Sua Loja de Games</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+  <title>Game Mania</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--CSS do projeto-->
+
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!--Google fonts - ROBOTO-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <!--Houve um problema para exportar as imagens do símbolo e do logo, portanto escolhi fazê-las como texto no HTML e estilizar com o CSS-->
-        <span id="simbolo"><a href="index.html">GM<div id="shadow-simbolo"></div></a></span>
-        <span id="linha-left"></span>
-        <span id="logotipo"><a href="index.html" id="link-logotipo">GAME MANIA</a><div id="shadow-logotipo"></div></span>
-        <nav>
-            <div id="nav-itens">
-                <a href="#">Produtos</a>
-                <a href="#">Promoções</a>
-                <a href="#" class="fonte-menor">Exclusivo para Gamers</a>
-                <a href="#" class="fonte-menor">Área do Cliente</a>
-                <a href="#">Contato</a>
+  <header>
+    <!--MENU-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fixed top bg-primary-color" id="navbar">
+        <a href="#" class="navbar-brand">
+          <img src="img/controller.svg" width="80px" height="80px" alt="Game Mania" />
+          <span>Game Mania</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+          aria-controls="navbar-items" aria-expanded="false" aria-label="toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="navbar-nav me-auto m2-auto mb-lg-0l">
+            <li class="nav-item">
+              <a class="nav-link primary-color" href="home.html">Home<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" href="sobre.html">Sobre<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" href="contato.html">Contato<span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link primary-color" href="login.html">Login<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link primary-color" href="cadastro.html">Cadastro<span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <div id="divBusca">
+            <input type="text" id="txtBusca"placeholder="Buscar..." />
+            <img class="imagem" style= "width: 35px; "src="img/busca1.png" id="btnBusca"alt="Buscar"/>
             </div>
-            <div id="nav-busca"><input type="search" placeholder="Buscar no site" id="barra-de-busca"></div>
+          </div>
         </nav>
-        <div id="top-right-box">
-            <span id="login"><a href="login.html" target="_blank">Fazer Login</a></span>
-            <span id="cadastro"><a href="#" target="_blank" >Cadastrar-se</a></span>
+        <!--BANNER-->
+      <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div id="indicadores" class="carousel-indicators">
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
         </div>
-    </header>
+        <div id="imagens" class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.png" class="d-block w-100" height="600px" />
 
-    <main>
-        <section id="produtos">
-            <div id="azul-escuro" class="container">
-                <div id="azul-claro">
-                    <div class="titulo-vermelho">
-                        O QUE VOCÊ PROCURA?
-                    </div>
-                    <div class="flex-container">
-                        <span class="border-cima"><a href="#">videogames</a></span>
-                        <span class="border-cima"><a href="#">computadores</a></span>
-                        <span class="border-cima"><a href="#">headphones e headsets</a></span>
-                        <span><a href="#">notebooks</a></span>
-                        <span><a href="#">teclados</a></span>
-                        <span><a href="#">microfones</a></span>
-                        <span><a href="#">acessórios</a></span>
-                        <span><a href="#">mouses e mousepads</a></span>
-                        <span><a href="#">webcams</a></span>
-                        <span class="border-baixo"><a href="#">celulares e smartphones</a></span>
-                        <span class="border-baixo"><a href="#">kit gamer</a></span>
-                        <span class="border-baixo"><a href="#">câmeras digitais</a></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section-imagens">
-            <div id="imagens" class="container">
-                <div class="titulo-vermelho">NOSSOS PRODUTOS</div>
-                    <div id="flex-container-img">
-                        <a href="#" target="_blank"><img class="imagem-pequena" src="img/img-2.png" alt="notebook, tablet, teclado e tela sobre mesa de madeira"></a>
-                        <a href="#" target="_blank"><img class="imagem-pequena" src="img/img-1.png" alt="controles de videogame"></a>
-                    </div>
-            </div>
-        </section>
-        <section id="section-promocao">
-            <div id="promocao" class="container">
-                <div class="titulo-vermelho">PROMOÇÃO<br> kit headphone + teclado + mouse <br>R$100,00 </div>
-                <div>
-                    <a href="#" target="_blank"><img id="imagem-grande" src="img/img-3.png" alt="headphone, teclado e mouse"></a>
-                </div>
-            </div>
-        </section>
-        <div id="fundo-preto"></div>
-    </main>
-
-    <footer>
-        <div class="parent-footer container">
-            <div class="child-left">
-                <ul>
-                    <a href="#">
-                        <li>Produtos</li>
-                    </a>
-                    <a href="#">
-                        <li>Promoções</li>
-                    </a>
-                    <a href="#">
-                        <li>Exclusivo para Gamers</li>
-                    </a>
-                    <a href="#">
-                        <li>Área do Cliente</li>
-                    </a>
-                    <a href="#">
-                        <li>Contato</li>
-                    </a>
-                </ul>
-                <hr class="hr">
-                <ul>
-                    <a href="#">Produtos:</a>
-                    <a href="#">
-                        <li>Videogames</li>
-                    </a>
-                    <a href="#">
-                        <li>Notebooks</li>
-                    </a>
-                    <a href="#">
-                        <li>Acessórios</li>
-                    </a>
-                    <a href="#">
-                        <li>Celulares e Smartphones</li>
-                    </a>
-                    <a href="#">
-                        <li>Computadores</li>
-                    </a>
-                    <a href="#">
-                        <li>Teclados</li>
-                    </a>
-                    <a href="#">
-                        <li>Mouses e Mousepads</li>
-                    </a>
-                    <a href="#">
-                        <li>Kit Gamer</li>
-                    </a>
-                    <a href="#">
-                        <li>Headphones e Headsets</li>
-                    </a>
-                    <a href="#">
-                        <li>Microfones</li>
-                    </a>
-                    <a href="#">
-                        <li>Webcams</li>
-                    </a>
-                    <a href="#">
-                        <li>Câmeras Digitais</li>
-                    </a>
-                </ul>
-            </div>
-
-            <div class="child-center">
-                <ul>
-                    <a href="#">Promoções:</a>
-                    <a href="#">
-                        <li>Leve 3 Pague 2</li>
-                    </a>
-                    <a href="#">
-                        <li>80% de Desconto</li>
-                    </a>
-                    <a href="#">
-                        <li>Kits Econômicos</li>
-                    </a>
-                </ul>
-                <hr class="hr">
-                <ul>
-                    <a href="#">Exclusivo para Gamers:</a>
-                    <a href="#">
-                        <li>PC Gamer</li>
-                    </a>
-                    <a href="#">
-                        <li>Teclado Gamer</li>
-                    </a>
-                    <a href="#">
-                        <li>Mouse Gamer</li>
-                    </a>
-                    <a href="#">
-                        <li>Placas de Vídeo</li>
-                    </a>
-                </ul>
-                <hr class="hr">
-                <ul>
-                    <a href="#">Área do Cliente:</a>
-                    <a href="#">
-                        <li>Atualizar Cadastro</li>
-                    </a>
-                    <a href="#">
-                        <li>Carrinho de Compras</li>
-                    </a>
-                    <a href="#">
-                        <li>Apagar Conta</li>
-                    </a>
-                </ul>
-            </div>
-
-            <div class="child-right">
-                <ul>
-                    <a href="#">Contato:</a>
-                    <a href="#">
-                        <li>Fale Conosco</li>
-                    </a>
-                    <a href="#">
-                        <li>Enviar Sugestão</li>
-                    </a>
-                    <a href="#">
-                        <li>Falar com SAC</li>
-                    </a>
-                    <li>Email: <br> empresa@gmail.com</li>
-                    <li>Telefone: <br> (01)23456-7890</li>
-                </ul>
-                <hr class="hr">
-                <ul>
-                    <a href="#">Sobre a Empresa:</a>
-                    <a href="#">
-                        <li>História</li>
-                    </a>
-                    <a href="#">
-                        <li>Endereço e Horários</li>
-                    </a>
-                    <a href="#">
-                        <li>Missão, Visão e Valores</li>
-                    </a>
-                    <a href="#">
-                        <li>Trabalhe Conosco</li>
-                    </a>
-                </ul>
-                <hr class="hr">
-                <ul>
-                    <span id="redes-sociais">Redes Sociais:</span>
-                    <br><br>
-                    <a href="https://www.facebook.com.br" target="_blank">
-                        <li><img src="img/fb-icon.png" alt="ícone do Facebook">&nbsp&nbspEmpresaVendas</li>
-                    </a>
-                    <br>
-                    <a href="https://www.youtube.com.br" target="_blank">
-                        <li><img src="img/yt-icon.png" alt="ícone do YouTube">&nbsp&nbspEmpresaVídeos</li>
-                    </a>
-                    <br>
-                    <a href="https://www.instagram.com.br" target="_blank">
-                        <li><img src="img/ins-icon.png" alt="ícone do Instagram">&nbsp&nbsp@EmpresaFotos</li>
-                    </a>
-                </ul>
-            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.png" class="d-block w-100" height="800px"   />
+          </div>
+          <div class="carousel-item">
+            <img src="img/img3.png" class="d-block w-100"  height="800px" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner3.png" height="600px" />
+            <img src="img/Banner4.png" height="600px" />
+          </div>
+          <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-        <div class="fundo-footer"></div>
-    </footer>
+        </div>
+        <!--DESTAQUES-->
+        <div class="col-12 col-md-12" id="Destaques">
+          <div class="row">
+            <div class="col-12 col-md-3">
+             <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title primary-color" >30%Off</h5>
+                 <img src="img/Lançamento1.png" width="100%" alt="destaque">
+                  <a href="Comprar" class="btn btn-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title primary-color" >20%Off</h5>
+                  <img src="img/Lançamento2.png" width="100%" alt="destaque">
+                  <a href="Comprar" class="btn btn-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title primary-color" >10%Off</h5>
+                  <img src="img/Lançamento3.png" width="100%" height="380px" alt="destaque">
+                  <a href="Comprar" class="btn btn-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title primary-color" >20%Off</h5>
+                  <img src="img/Lançamento4.png" width="100%" alt="destaque"> 
+                  <a href="Comprar" class="btn btn-dark">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--DESTAQUES-->
+        <div class="container" id="produtos">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2 class="title primary-color" id="Product">DESTAQUES DA SEMANA</h2>
+            <p class="subtitle secondary-color">
+              Conheça nossos produtos
+            </p>
+          </div>
+          <div class="col-12" id="featured-imagens">
+            <div class="row g-4">
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto1.png" width="300px" height="200px" alt="produto1" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 4.499,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br> 
+                    adipisicing elit
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto2 (2).png" width="300px" height="200px"alt="produto2" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 5.599,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    consectetur  elit. <br> 
+                    adipisicing elit
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src=img/Produto3.png height="50px" alt="produto3" class="img-fluid" />
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 499,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto4.png" alt="produto4" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 4.499,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br> 
+                    adipisicing elit
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto5.png" alt="produto5" class="img-fluid"/>
+                <div class="banner-content primary-color">
+                  <p class="primary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 5.000,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    Lorem ipsum dolor sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto6.png" alt="produto6" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 5.000,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    Lorem ipsum dolor sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto8.png" alt="produto6" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 5.000,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    Lorem ipsum dolor sit amet
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <img src="img/Produto7.png" alt="produto6" class="img-fluid"/>
+                <div class="banner-content">
+                  <p class="secondary-color">Categoria</p>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <i class="bi bi-star primary-color"></i>
+                  <h4 class="primary-color">R$ 5.000,00</h4> 
+                  <p class="secondary-color">Lorem ipsum dolor sit amet <br>
+                    Lorem ipsum dolor sit amet
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </header>
+  <!--FOOTER-->
+  <footer class="container-fluid bg-dark-color" id="footer">
+    <div class="container">
+      <div class="row">
+        <!--FOOTER TOP-->
+        <div class="col-12" id="footer-top">
+          <div class="row justify-content-between">
+            <div class="col-4">
+              <h3 class="secondary-color">Game Mania</h3>
+            </div>
+            <div class="col-4" id="social-icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+              <button onclick="myFunction()">clique aqui</button>
+              <div id="contextText"><p>Inscreva-se para saber mais</p></div>
+            </div>
+          </div>
+        </div>
+        <!--FOOTER DETAILS-->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <div class="col-12 col-md-4" id="news-container">
+              <h4 class="secondary-color">Fique por dentro das Novidades</h4>
+             <p clas="secondary-color">
+                Inscreva-se para saber mais
+              </p>
+              <div class="col-4" id="social-icons">
+                <p class="secondary-color">Pague com</p>
+                <i class="bi bi-ticket-detailed"></i>
+                <i class="bi bi-cash-coin"></i>
+                <i class="bi bi-credit-card"></i>
+                <i class="bi bi-paypal"></i>
+              </div>
+            </div>
+          </div>
+          <!--FOOTER BOTTOM-->
+          <div class="col-12" id="footer-bottom">
+          </div>
+          </div>
+        </div>
+  </footer>
+  <script type="text/javascript" src="./js/script.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
 </html>
